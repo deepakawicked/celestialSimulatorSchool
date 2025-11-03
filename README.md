@@ -1,7 +1,3 @@
-Here’s a clean, **GitHub-formatted README** with proper Markdown syntax — looks sharp, readable, and professional while still noting it’s a school project:
-
----
-
 # 🌌 OOP Solar System Simulation
 
 An **object-oriented 2D solar system simulation** built in **Processing** for a **school project**.
@@ -70,4 +66,3 @@ Feel free to use, modify, or learn from it.
 
 ---
 
-Would you like me to include a **preview image or GIF section** (e.g., “Example Output” with a screenshot placeholder)? That instantly makes a GitHub page look more professional.
