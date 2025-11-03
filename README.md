@@ -35,7 +35,7 @@ This simulation models **gravitational interactions**, **orbital motion**, and *
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/OOP-Solar-System.git
+   git clone https://github.com/deepakawicked/OOP-Solar-System.git
    ```
 3. Open `Simulation.pde` in Processing.
 4. Click **Run ▶️** to start the simulation.
