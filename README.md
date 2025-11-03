@@ -1,34 +1,73 @@
-# celestialSimulatorSchool
-An object-oriented 2D solar system simulation built in Processing for a school project. Models gravitational interactions, orbital motion, and collisions between celestial bodies. Designed to demonstrate OOP principles, physics simulations, and flexible scenario setups for educational purposes
+Here’s a clean, **GitHub-formatted README** with proper Markdown syntax — looks sharp, readable, and professional while still noting it’s a school project:
 
-OOP Solar System Simulation
+---
 
-A basic object-oriented simulation of celestial dynamics using Processing. This project explores gravitational interactions, orbital mechanics, and simple collisions in a 2D space.
+# 🌌 OOP Solar System Simulation
 
-Features
+An **object-oriented 2D solar system simulation** built in **Processing** for a **school project**.
+This simulation models **gravitational interactions**, **orbital motion**, and **collisions** between celestial bodies — demonstrating key **OOP principles**, physics logic, and scalable simulation design.
 
-Simulates a solar system with multiple celestial bodies (planets, asteroids, stars).
+---
 
-Implements object-oriented design for flexible, extendable structure.
+## 🚀 Features
 
-Tracks motion, collisions, and interactions between bodies.
+* 🌍 **Realistic orbital motion** and gravitational pull
+* ☄️ **Collision detection and fusion logic** for asteroids and planets
+* 🔭 **Auto-scaling camera** that keeps all objects in frame
+* 🪐 **Customizable scenarios** (e.g., solar system, binary stars, supernova events)
+* 🧩 **Fully object-oriented structure** for modular and extensible code
 
-Auto-scaling camera to keep all objects in view.
+---
 
-Adjustable parameters for mass, velocity, and position.
+## 🧠 Project Structure
 
-Project Structure
+```
+/OOP-Solar-System
+│
+├── Celestial.java       # Base class for all celestial objects
+├── Planet.java          # Defines planet-specific behavior
+├── Asteroid.java        # Handles collision and fusion logic
+├── Scenario.java        # Manages different system configurations
+└── Simulation.pde       # Main Processing sketch (entry point)
+```
 
-Celestial.java – Base class for all celestial objects.
+---
 
-Planet.java – Planet-specific behavior and properties.
+## 🛠️ How to Run
 
-Asteroid.java – Asteroids with collision detection and fusion logic.
+1. Install **[Processing](https://processing.org/download/)**.
+2. Clone this repository:
 
-Simulation.pde – Main Processing sketch that runs the simulation.
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/OOP-Solar-System.git
+   ```
+3. Open `Simulation.pde` in Processing.
+4. Click **Run ▶️** to start the simulation.
 
-Scenario.java – Handles different predefined scenarios (e.g., solar system, binary stars).
+---
 
-How to Run
+## ⚙️ Customization
 
-Download and install Processing
+* Add new bodies by creating subclasses of `Celestial`.
+* Modify parameters like **mass**, **velocity**, or **position**.
+* Adjust camera padding and time steps in `autoScaleCamera()` for smoother zooming.
+* Experiment with `Scenario.java` to create unique systems.
+
+---
+
+## 📘 Notes
+
+* Created for a **school project** to demonstrate **object-oriented programming** and **basic physics simulation**.
+* Physics are simplified for visualization and learning purposes.
+* Free to modify, fork, and expand upon.
+
+---
+
+## 📄 License
+
+This project is released under the **MIT License**.
+Feel free to use, modify, or learn from it.
+
+---
+
+Would you like me to include a **preview image or GIF section** (e.g., “Example Output” with a screenshot placeholder)? That instantly makes a GitHub page look more professional.
