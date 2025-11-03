@@ -18,14 +18,13 @@ This simulation models **gravitational interactions**, **orbital motion**, and *
 ## 🧠 Project Structure
 
 ```
-/OOP-Solar-System
+/CelestialBodies
 │
-├── Celestial.java       # Base class for all celestial objects
-├── Planet.java          # Defines planet-specific behavior
-├── Asteroid.java        # Handles collision and fusion logic
-├── Scenario.java        # Manages different system configurations
-└── Simulation.pde       # Main Processing sketch (entry point)
-```
+├── CelestialBodies.pde     # Main Processing sketch (entry point)
+├── Camera.pde              # Handles camera scaling and center-of-mass tracking
+├── CelestialDynamics.pde   # Core physics logic and gravity calculations
+├── HelperFunctions.pde     # Utility functions (collision effects, drawing helpers)
+└── Scenerios.pde           # Manages scenario data and celestial configurations
 
 ---
 
